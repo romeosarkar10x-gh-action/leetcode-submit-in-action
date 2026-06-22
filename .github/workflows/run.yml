@@ -1,0 +1,13 @@
+on:
+    push
+
+jobs:
+    run-workflow:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v7 
+
+            - name: Run 'leetcode-submit'
+              uses: romeosarkar10x-gh-action/leetcode-submit
+
