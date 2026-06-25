@@ -9,5 +9,5 @@ jobs:
               uses: actions/checkout@v7 
 
             - name: Run 'leetcode-submit'
-              uses: romeosarkar10x-gh-action/leetcode-submit@v0.0.0
+              uses: romeosarkar10x-gh-action/leetcode-submit@v0.0.0-alpha
 
